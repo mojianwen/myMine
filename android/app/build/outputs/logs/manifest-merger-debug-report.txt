@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:2:1-31:12
+ADDED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:2:1-32:12
 MERGED from [androidx.databinding:databinding-adapters:8.0.2] C:\Users\莫健文\.gradle\caches\transforms-3\baec15072f00a298ea25b6d968a06fde\transformed\databinding-adapters-8.0.2\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.databinding:databinding-ktx:8.0.2] C:\Users\莫健文\.gradle\caches\transforms-3\9ce3bb8a6b7c95f3e9552c59d823d127\transformed\databinding-ktx-8.0.2\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.databinding:databinding-runtime:8.0.2] C:\Users\莫健文\.gradle\caches\transforms-3\652995ac5e4c93b47df39f9b9b586ab1\transformed\databinding-runtime-8.0.2\AndroidManifest.xml:2:1-7:12
@@ -72,20 +72,20 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\莫健文\.gradl
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\莫健文\.gradle\caches\transforms-3\5f0efcb7efa1e72283400c65f31b9cc3\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\莫健文\.gradle\caches\transforms-3\7aeaf33f87cc6a51c0badfdb064c98fc\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\莫健文\.gradle\caches\transforms-3\c6aa3a9ac7540740416cd94b3aa8e395\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:2:1-32:12
 	package
 		INJECTED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:2:1-31:12
+		ADDED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:2:1-32:12
 		INJECTED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:2:1-31:12
+		ADDED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:2:1-32:12
 		INJECTED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:2:1-31:12
+		ADDED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:2:1-32:12
 		INJECTED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:2:11-69
@@ -105,8 +105,12 @@ uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 ADDED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:7:5-81
 	android:name
 		ADDED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:7:22-78
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:8:5-77
+	android:name
+		ADDED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:8:22-74
 application
-ADDED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:9:5-29:19
+ADDED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:10:5-30:19
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\莫健文\.gradle\caches\transforms-3\f8b8808e3f130defc449b0bd3103c10b\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\莫健文\.gradle\caches\transforms-3\f8b8808e3f130defc449b0bd3103c10b\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\莫健文\.gradle\caches\transforms-3\9f9351e3c6b0fd19e3635a73ebbdf51b\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -130,45 +134,45 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\莫健文\.gradle\
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\莫健文\.gradle\caches\transforms-3\1f293e5c00b257f20bb71c84d18764e8\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\莫健文\.gradle\caches\transforms-3\1f293e5c00b257f20bb71c84d18764e8\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 	android:requestLegacyExternalStorage
-		ADDED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:17:9-52
+		ADDED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:18:9-52
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.9.0] C:\Users\莫健文\.gradle\caches\transforms-3\a6da0406f5c96279dc30bca1ca16a6b8\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:14:9-35
+		ADDED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:15:9-35
 	android:label
-		ADDED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:12:9-41
+		ADDED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:13:9-41
 	android:roundIcon
-		ADDED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:13:9-54
+		ADDED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:14:9-54
 	android:icon
-		ADDED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:11:9-43
+		ADDED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:12:9-43
 	android:allowBackup
-		ADDED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:11:9-35
 	android:theme
-		ADDED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:15:9-50
+		ADDED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:16:9-50
 	android:usesCleartextTraffic
-		ADDED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:16:9-44
+		ADDED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:17:9-44
 activity#com.mining.safety.ui.login.LoginActivity
-ADDED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:18:9-25:20
+ADDED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:19:9-26:20
 	android:exported
-		ADDED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:20:13-36
+		ADDED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:21:13-36
 	android:name
-		ADDED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:19:13-51
+		ADDED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:20:13-51
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:21:13-24:29
+ADDED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:22:13-25:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:22:17-69
+ADDED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:23:17-69
 	android:name
-		ADDED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:22:25-66
+		ADDED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:23:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:23:17-77
+ADDED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:24:17-77
 	android:name
-		ADDED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:23:27-74
+		ADDED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:24:27-74
 activity#com.mining.safety.ui.main.MainActivity
-ADDED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:26:9-28:40
+ADDED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:27:9-29:40
 	android:exported
-		ADDED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:28:13-37
+		ADDED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:29:13-37
 	android:name
-		ADDED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:27:13-49
+		ADDED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml:28:13-49
 uses-sdk
 INJECTED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Public\CodeGeeXProjects\mining-safety-training\android\app\src\main\AndroidManifest.xml

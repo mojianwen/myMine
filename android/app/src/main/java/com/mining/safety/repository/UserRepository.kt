@@ -12,23 +12,29 @@ class UserRepository {
             val response = apiService.login(LoginRequest(username, password))
             if (response.isSuccessful && response.body()?.code == 200) {
                 val data = response.body()?.data
-                if (data != null && data is Map<*, *>) {
-                    val token = data["token"] as? String ?: ""
-                    val userMap = data["user"] as? Map<*, *>
-                    val user = if (userMap != null) {
-                        User(
-                            id = (userMap["id"] as? Number)?.toLong() ?: 0,
-                            username = userMap["username"] as? String ?: "",
-                            realName = userMap["realName"] as? String ?: "",
-                            phone = userMap["phone"] as? String ?: "",
-                            email = userMap["email"] as? String ?: "",
-                            status = (userMap["status"] as? Number)?.toInt() ?: 0,
-                            createTime = userMap["createTime"] as? String ?: ""
-                        )
-                    } else {
-                        User()
+                if (data != null) {
+                    // 验证数据确实是期望的Map格式
+                    if (data !is Map<*, *>) {
+                        return Result.failure(Exception("登录失败：数据格式错误"))
                     }
-                    Result.success(LoginResponse(token, user))
+                    
+                    val token = parseStringValue(data["token"])
+                    val userMap = data["user"] as? Map<*, *>?
+                    
+                    if (userMap != null) {
+                        val user = User(
+                            id = parseLongValue(userMap["id"]),
+                            username = parseStringValue(userMap["username"]),
+                            realName = parseStringValue(userMap["realName"]),
+                            phone = parseStringValue(userMap["phone"]),
+                            email = parseStringValue(userMap["email"]),
+                            status = parseIntValue(userMap["status"]),
+                            createTime = parseStringValue(userMap["createTime"])
+                        )
+                        Result.success(LoginResponse(token, user))
+                    } else {
+                        Result.failure(Exception("登录失败：用户数据缺失"))
+                    }
                 } else {
                     Result.failure(Exception("登录失败：数据格式错误"))
                 }
@@ -37,6 +43,30 @@ class UserRepository {
             }
         } catch (e: Exception) {
             Result.failure(e)
+        }
+    }
+    
+    private fun parseStringValue(value: Any?): String {
+        return when (value) {
+            is String -> value
+            is Number -> value.toString()
+            else -> ""
+        }
+    }
+    
+    private fun parseLongValue(value: Any?): Long {
+        return when (value) {
+            is Number -> value.toLong()
+            is String -> value.toLongOrNull() ?: 0
+            else -> 0
+        }
+    }
+    
+    private fun parseIntValue(value: Any?): Int {
+        return when (value) {
+            is Number -> value.toInt()
+            is String -> value.toIntOrNull() ?: 0
+            else -> 0
         }
     }
 
