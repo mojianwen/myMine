@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">矿山安全培训管理系统</string>
+    <string name="login">登录</string>
+    <string name="username">用户名</string>
+    <string name="password">密码</string>
+    <string name="please_enter_username">请输入用户名</string>
+    <string name="please_enter_password">请输入密码</string>
+    <string name="login_success">登录成功</string>
+    <string name="login_failed">登录失败</string>
+    <string name="network_error">网络错误，请检查网络连接</string>
+
+    <!-- 主界面 -->
+    <string name="dashboard">首页</string>
+    <string name="user_management">用户管理</string>
+    <string name="material_management">培训素材管理</string>
+    <string name="course_management">培训课程管理</string>
+    <string name="exam_management">培训试卷管理</string>
+    <string name="topic_management">培训专题管理</string>
+    <string name="classroom_management">线下课堂</string>
+    <string name="logout">退出登录</string>
+
+    <!-- 通用 -->
+    <string name="add">添加</string>
+    <string name="edit">编辑</string>
+    <string name="delete">删除</string>
+    <string name="save">保存</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确认</string>
+    <string name="loading">加载中...</string>
+    <string name="refresh">刷新</string>
+    <string name="search">搜索</string>
+    <string name="no_data">暂无数据</string>
+    <string name="delete_confirm">确定要删除吗？</string>
+    <string name="operation_success">操作成功</string>
+    <string name="operation_failed">操作失败</string>
+
+    <!-- 用户管理 -->
+    <string name="real_name">姓名</string>
+    <string name="phone">手机号</string>
+    <string name="email">邮箱</string>
+    <string name="status">状态</string>
+    <string name="create_time">创建时间</string>
+
+    <!-- 培训素材 -->
+    <string name="material_name">素材名称</string>
+    <string name="material_type">素材类型</string>
+    <string name="material_category">素材分类</string>
+    <string name="duration">时长</string>
+    <string name="file_path">文件路径</string>
+
+    <!-- 培训课程 -->
+    <string name="course_name">课程名称</string>
+    <string name="course_type">课程类型</string>
+    <string name="trainer">培训师</string>
+    <string name="description">描述</string>
+    <string name="materials">素材</string>
+
+    <!-- 培训试卷 -->
+    <string name="exam_name">试卷名称</string>
+    <string name="exam_type">试卷类型</string>
+    <string name="total_score">总分</string>
+    <string name="question_count">题目数量</string>
+
+    <!-- 培训专题 -->
+    <string name="topic_name">专题名称</string>
+    <string name="topic_category">专题分类</string>
+    <string name="course_count">课程数量</string>
+    <string name="material_count">素材数量</string>
+
+    <!-- 线下课堂 -->
+    <string name="classroom_name">课堂名称</string>
+    <string name="location">地点</string>
+    <string name="start_time">开始时间</string>
+    <string name="end_time">结束时间</string>
+    <string name="max_participants">最大人数</string>
+    <string name="participant_count">已报名人数</string>
+    <string name="sign_in">签到</string>
+</resources>

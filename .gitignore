@@ -1,0 +1,39 @@
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Build outputs
+target/
+build/
+dist/
+out/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local configuration
+local.properties
+*.local
+
+# Node modules
+node_modules/
+
+# Gradle
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# Database
+*.db
+*.sqlite

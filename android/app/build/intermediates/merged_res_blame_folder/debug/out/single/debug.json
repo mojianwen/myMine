@@ -1,0 +1,106 @@
+[
+    {
+        "merged": "com.mining.safety.app-merged_res-4:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.mining.safety.app-main-6:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.mining.safety.app-merged_res-4:/layout_item_user.xml.flat",
+        "source": "com.mining.safety.app-main-6:/layout/item_user.xml"
+    },
+    {
+        "merged": "com.mining.safety.app-merged_res-4:/layout_fragment_exam.xml.flat",
+        "source": "com.mining.safety.app-main-6:/layout/fragment_exam.xml"
+    },
+    {
+        "merged": "com.mining.safety.app-merged_res-4:/layout_activity_main.xml.flat",
+        "source": "com.mining.safety.app-main-6:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.mining.safety.app-merged_res-4:/layout_item_course.xml.flat",
+        "source": "com.mining.safety.app-main-6:/layout/item_course.xml"
+    },
+    {
+        "merged": "com.mining.safety.app-merged_res-4:/layout_fragment_classroom.xml.flat",
+        "source": "com.mining.safety.app-main-6:/layout/fragment_classroom.xml"
+    },
+    {
+        "merged": "com.mining.safety.app-merged_res-4:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.mining.safety.app-main-6:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.mining.safety.app-merged_res-4:/layout_item_material.xml.flat",
+        "source": "com.mining.safety.app-main-6:/layout/item_material.xml"
+    },
+    {
+        "merged": "com.mining.safety.app-merged_res-4:/layout_fragment_material.xml.flat",
+        "source": "com.mining.safety.app-main-6:/layout/fragment_material.xml"
+    },
+    {
+        "merged": "com.mining.safety.app-merged_res-4:/layout_dialog_topic.xml.flat",
+        "source": "com.mining.safety.app-main-6:/layout/dialog_topic.xml"
+    },
+    {
+        "merged": "com.mining.safety.app-merged_res-4:/layout_activity_login.xml.flat",
+        "source": "com.mining.safety.app-main-6:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.mining.safety.app-merged_res-4:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.mining.safety.app-main-6:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.mining.safety.app-merged_res-4:/mipmap-anydpi-v26_ic_launcher_foreground.xml.flat",
+        "source": "com.mining.safety.app-main-6:/mipmap-anydpi-v26/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.mining.safety.app-merged_res-4:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.mining.safety.app-main-6:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.mining.safety.app-merged_res-4:/layout_fragment_user.xml.flat",
+        "source": "com.mining.safety.app-main-6:/layout/fragment_user.xml"
+    },
+    {
+        "merged": "com.mining.safety.app-merged_res-4:/layout_item_topic.xml.flat",
+        "source": "com.mining.safety.app-main-6:/layout/item_topic.xml"
+    },
+    {
+        "merged": "com.mining.safety.app-merged_res-4:/layout_item_exam.xml.flat",
+        "source": "com.mining.safety.app-main-6:/layout/item_exam.xml"
+    },
+    {
+        "merged": "com.mining.safety.app-merged_res-4:/layout_fragment_topic.xml.flat",
+        "source": "com.mining.safety.app-main-6:/layout/fragment_topic.xml"
+    },
+    {
+        "merged": "com.mining.safety.app-merged_res-4:/layout_fragment_course.xml.flat",
+        "source": "com.mining.safety.app-main-6:/layout/fragment_course.xml"
+    },
+    {
+        "merged": "com.mining.safety.app-merged_res-4:/layout_dialog_exam.xml.flat",
+        "source": "com.mining.safety.app-main-6:/layout/dialog_exam.xml"
+    },
+    {
+        "merged": "com.mining.safety.app-merged_res-4:/layout_dialog_user.xml.flat",
+        "source": "com.mining.safety.app-main-6:/layout/dialog_user.xml"
+    },
+    {
+        "merged": "com.mining.safety.app-merged_res-4:/layout_dialog_classroom.xml.flat",
+        "source": "com.mining.safety.app-main-6:/layout/dialog_classroom.xml"
+    },
+    {
+        "merged": "com.mining.safety.app-merged_res-4:/layout_item_classroom.xml.flat",
+        "source": "com.mining.safety.app-main-6:/layout/item_classroom.xml"
+    },
+    {
+        "merged": "com.mining.safety.app-merged_res-4:/layout_dialog_course.xml.flat",
+        "source": "com.mining.safety.app-main-6:/layout/dialog_course.xml"
+    },
+    {
+        "merged": "com.mining.safety.app-merged_res-4:/layout_dialog_material.xml.flat",
+        "source": "com.mining.safety.app-main-6:/layout/dialog_material.xml"
+    },
+    {
+        "merged": "com.mining.safety.app-merged_res-4:/menu_main_menu.xml.flat",
+        "source": "com.mining.safety.app-main-6:/menu/main_menu.xml"
+    }
+]

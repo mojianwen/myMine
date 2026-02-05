@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_user"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="@string/user_management" />
+    <item
+        android:id="@+id/navigation_material"
+        android:icon="@android:drawable/ic_menu_gallery"
+        android:title="@string/material_management" />
+    <item
+        android:id="@+id/navigation_course"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="@string/course_management" />
+    <item
+        android:id="@+id/navigation_exam"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="@string/exam_management" />
+    <item
+        android:id="@+id/navigation_topic"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:title="@string/topic_management" />
+    <item
+        android:id="@+id/navigation_classroom"
+        android:icon="@android:drawable/ic_menu_call"
+        android:title="@string/classroom_management" />
+</menu>
